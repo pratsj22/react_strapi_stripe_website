@@ -1,0 +1,17 @@
+.dropdown{
+    position: absolute;
+    left: 90px;
+    top: 89px;
+    z-index: 999;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 7px -5px black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 14px;
+    width: 150px;
+    @media only screen and (max-width:415px){
+        left: 9px;
+    }
+}
